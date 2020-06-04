@@ -12,12 +12,14 @@ Additionally, the data was taken from the original Pang and Lee movie review cor
 
 The following table shows the numbers associated with the sentiment labels in the dataset:
 
+Num Value | Sentiment Label
 ------------ | -------------
-0 - | --Negative
+0 | Negative
 1 | Somewhat Negative
 2 | Neutral
 3 | Somewhat positive 
 4	| Positive 
+
 
 
 ### Data Review: 
