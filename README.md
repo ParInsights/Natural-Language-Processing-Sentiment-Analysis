@@ -11,11 +11,14 @@ We have chosen to work with the Kaggle competition move review phrase data, whic
 Additionally, the data was taken from the original Pang and Lee movie review corpus, which is based on reviews from the Rotten Tomatoes website. Socher’s group used crowdsourcing to manually annotate all the subphrases of sentences with a sentiment label ranging over: “negative”, “somewhat negative”, “neutral”, “somewhat positive”, “positive”. 
 
 The following table shows the numbers associated with the sentiment labels in the dataset:
-0 	Negative
-1 	Somewhat Negative
-2	Neutral
-3 	Somewhat positive 
-4	Positive 
+
+------------ | -------------
+0 - | --Negative
+1 | Somewhat Negative
+2 | Neutral
+3 | Somewhat positive 
+4	| Positive 
+
 
 ### Data Review: 
 We used training data “train.tsv” and testing “test.tsv” datasets for our experiments. The train.tsv dataset contained the reviews with their related sentiment labels. In addition, each phrase is given a SentenceId that corresponds to each sentence. This allows us to track which sentences belong to which reviews.  The test.tsv dataset contains only the reviews and their associated SentenceId. We will seek to assign a sentiment label to each of these reviews. 
